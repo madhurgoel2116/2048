@@ -5,7 +5,7 @@ FROM node:14
 WORKDIR /app
 
 # COPY 
-COPY . .
+COPY . /app
 
 # Install the game dependencies
 RUN npm install
